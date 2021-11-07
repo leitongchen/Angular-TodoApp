@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-container {
+    background: rgb(255,214,201);
+    background: linear-gradient(324deg, rgba(255,214,201,1) 0%, rgba(225,209,255,1) 100%);
+    width: 100vw;
+    height: 100vh;
+
+    padding: 2rem; 
+}
